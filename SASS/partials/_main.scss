@@ -1,3 +1,52 @@
 body {
   background-color: $colore-principale;
 }
+main {
+  background-color: $colore-sfondo;
+  h1 {
+    text: {
+      transform: uppercase;
+      align: center;
+    }
+    font-weight: 700;
+  }
+}
+
+@mixin mainBox($val, $property) {
+  background-#{$property}: $val;
+}
+
+.main {
+  @include mainBox(300px, url(../../img/bosco.jpg));
+}
+
+@mixin stileCard($size) {
+  /* img {
+    width: 100%;
+    height: 100px;
+} */
+
+
+  }
+  .card-text p {
+    font-style: italic;
+    font-weight: 200;
+  }
+  margin: $size;
+  border-radius: $size;
+  border: $bordo;
+  .btn {
+    background-color: $colore-principale;
+    color: $colore-sfondo;
+    &:hover {
+      transform: sclae(2);
+    }
+  }
+  span {
+    font-weight: 700;
+  }
+}
+
+.evento-1 {
+  @include stileCard(15px);
+}
