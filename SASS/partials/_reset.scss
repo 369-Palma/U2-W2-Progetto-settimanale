@@ -22,3 +22,13 @@ a {
   text-decoration: none;
   color: $colore-principale;
 }
+
+h3 {
+  text: {
+    transform: uppercase;
+    align: center;
+  }
+  font-family: "Nunito";
+  font-size: 2em;
+  font-weight: 700;
+}

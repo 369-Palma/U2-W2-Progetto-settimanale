@@ -24,7 +24,8 @@ ul {
     }
     & :hover {
       color: $colore-secondario;
-      transform: scale(2);
+      text-transform: uppercase;
+      font-size: 1.5em;
     }
   }
 }

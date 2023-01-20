@@ -1,0 +1,34 @@
+/* @mixin customPartner($property) {
+  width: 100%;
+  margin: 20px;
+  background-image: $property;
+}
+.partnership {
+  .colA {
+    @include customPartner(url(../../img/la\ cinciallegra\ logo.jfif));
+  }
+  .colB {
+    @include customPartner(url(../../img/le\ orme\ dei\ piccoli.jfif));
+  }
+  .colC {
+    @include customPartner(url(../../img/comune\ castelfranco\ logo.png));
+  }
+  .colD {
+    @include customPartner(url(../../img/logo\ biblioteca.png));
+  }
+}
+ */
+
+.partners {
+  background-color: $colore-sfondo;
+  p {
+    color: $colore-principale;
+    font: {
+      style: $styleI;
+      family: $family;
+    }
+    &:hover {
+      font-size: 1.5em;
+    }
+  }
+}
