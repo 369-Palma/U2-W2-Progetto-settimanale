@@ -126,4 +126,13 @@ span {
 }
 .partners p:hover {
   font-size: 1.5em;
+}
+
+h5 {
+  font-family: "Nutito" "san-serif";
+  color: rgb(0, 78, 0);
+}
+
+.carousel-item img {
+  width: 200px;
 }/*# sourceMappingURL=app.css.map */
