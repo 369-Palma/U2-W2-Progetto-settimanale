@@ -1,4 +1,4 @@
-.navBar {
+.navbar {
   padding-right: 0;
   width: 100%;
   border: $bordo;
@@ -23,9 +23,9 @@ ul {
       weight: 600;
     }
     & :hover {
-      color: $colore-secondario;
-      text-transform: uppercase;
-      font-size: 1.5em;
+      color: $colore-secondario !important;
+
+      font-size: 1.2em;
     }
   }
 }
