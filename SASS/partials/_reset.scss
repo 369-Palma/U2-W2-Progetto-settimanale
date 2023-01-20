@@ -1,5 +1,9 @@
 html,
-body {
+body,
+nav,
+footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -9,6 +13,9 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  li {
+    cursor: pointer;
+  }
 }
 
 a {
