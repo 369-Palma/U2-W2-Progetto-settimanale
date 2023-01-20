@@ -19,6 +19,7 @@ ul li {
 
 a {
   text-decoration: none;
+  color: rgb(0, 78, 0);
 }
 
 .navBar {
@@ -41,10 +42,11 @@ ul {
 ul li {
   padding-right: 1.5em;
   color: rgb(0, 78, 0);
-  font--size: 1em;
-  font--weight: 600;
+  font-size: 1em;
+  font-weight: 600;
 }
 ul li :hover {
+  color: rgb(65, 207, 65);
   transform: scale(2);
 }
 

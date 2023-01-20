@@ -18,10 +18,11 @@ ul {
     color: $colore-principale;
 
     font: {
-      -size: 1em;
-      -weight: 600;
+      size: 1em;
+      weight: 600;
     }
     & :hover {
+      color: $colore-secondario;
       transform: scale(2);
     }
   }
