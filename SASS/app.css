@@ -60,11 +60,11 @@ ul li :hover {
 }
 
 body {
-  background-color: rgb(0, 78, 0);
+  background-color: rgb(210, 210, 120);
 }
 
 main {
-  background-color: rgb(210, 210, 120);
+  /* background-color: $colore-sfondo; */
   font-weight: 700;
 }
 main .fila-cards {
@@ -93,6 +93,7 @@ span {
   margin: 15px;
   border-radius: 15px;
   border: 2px solid rgb(65, 207, 65);
+  background-color: rgb(210, 210, 120);
 }
 
 /* @mixin customPartner($property) {
@@ -133,5 +134,9 @@ h5 {
 }
 
 .carousel-item img {
-  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  width: 100% !important;
 }/*# sourceMappingURL=app.css.map */
