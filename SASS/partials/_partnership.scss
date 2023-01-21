@@ -1,6 +1,6 @@
 /* @mixin customPartner($property) {
   width: 100%;
-  margin: 20px;
+  margin: 2em;
   background-image: $property;
 }
 .partnership {
@@ -20,12 +20,20 @@
  */
 
 .partners {
-  background-color: $colore-sfondo;
-  p {
-    color: $colore-principale;
+  background-color: $colore-principale;
+
+  img {
+    max-width: 100%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+  }
+  .col h5 {
+    color: $colore-sfondo;
+    text-align: center;
     font: {
       style: $styleI;
       family: $family;
+      size: 1em;
     }
     &:hover {
       font-size: 1.5em;

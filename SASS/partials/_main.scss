@@ -1,13 +1,17 @@
 body {
   background-color: $colore-sfondo;
 }
-main {
+/* main {
   /* background-color: $colore-sfondo; */
-  font-weight: 700;
+/*  font-weight: 700;
   .fila-cards {
     justify-content: center;
     align-content: center;
   }
+}  */
+
+#text-center {
+  color: $colore-sfondo;
 }
 
 @mixin mainBox($val, $property) {
