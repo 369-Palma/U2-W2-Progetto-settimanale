@@ -8,6 +8,13 @@ h5 {
     aspect-ratio: 1/1;
     border-radius: 100% !important;
     object-fit: cover !important;
-    width: 100% !important;
+    width: 50% !important;
+    /* position: relative; */
   }
 }
+
+/* .carousel-caption {
+  position: absolute;
+  bottom: -150px;
+  left: 30px;
+} */

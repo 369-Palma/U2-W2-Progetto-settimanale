@@ -138,5 +138,12 @@ h5 {
   border-radius: 100% !important;
   -o-object-fit: cover !important;
      object-fit: cover !important;
-  width: 100% !important;
-}/*# sourceMappingURL=app.css.map */
+  width: 50% !important;
+  /* position: relative; */
+}
+
+/* .carousel-caption {
+  position: absolute;
+  bottom: -150px;
+  left: 30px;
+} *//*# sourceMappingURL=app.css.map */
