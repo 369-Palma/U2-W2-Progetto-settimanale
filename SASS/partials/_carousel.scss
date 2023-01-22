@@ -2,17 +2,18 @@ h5 {
   font-family: $family;
   color: $colore-principale;
 }
-
-.carousel-item {
-  img {
-    aspect-ratio: 1/1;
-    border-radius: 100% !important;
-    object-fit: cover !important;
-    width: 50% !important;
-    /* position: relative; */
+#carouselExampleCaptions {
+  margin-bottom: $size-fix;
+  .carousel-item {
+    img {
+      aspect-ratio: 1/1;
+      border-radius: 100% !important;
+      object-fit: cover !important;
+      width: 50% !important;
+      /* position: relative; */
+    }
   }
 }
-
 /* .carousel-caption {
   position: absolute;
   bottom: -150px;

@@ -128,7 +128,10 @@ h5 {
   color: rgb(0, 78, 0);
 }
 
-.carousel-item img {
+#carouselExampleCaptions {
+  margin-bottom: 80px;
+}
+#carouselExampleCaptions .carousel-item img {
   aspect-ratio: 1/1;
   border-radius: 100% !important;
   -o-object-fit: cover !important;
@@ -142,6 +145,22 @@ h5 {
   bottom: -150px;
   left: 30px;
 } */
+footer {
+  height: 80px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+footer .testo-footer {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
 body {
   background-color: rgb(243, 243, 211);
-}/*# sourceMappingURL=app.css.map */
+}
+
+/* @function paddingTot($size) {
+  @return calc($size - $size-fix);
+}
+ *//*# sourceMappingURL=app.css.map */
