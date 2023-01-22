@@ -169,6 +169,11 @@ span {
   font-style: italic;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(0, 78, 0);
+}
+
 /* footer {
   height: 80px;
    position: sticky;
