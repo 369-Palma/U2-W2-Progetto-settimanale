@@ -155,7 +155,7 @@ span {
 
 .carousel-item img {
   border-radius: 30px;
-  margin-bottom: 230px;
+  margin-bottom: 250px;
 }
 .carousel-item .testimonianza h5 {
   color: rgb(0, 78, 0);
@@ -175,21 +175,22 @@ span {
   background-color: rgb(0, 78, 0);
 }
 
-/* footer {
+footer {
   height: 80px;
-   position: sticky;
-  bottom: 0; 
-  .testo-footer {
-    padding-top: auto;
-    padding-bottom: auto;
-  }
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+footer .testo-footer {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+footer #contatti {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
+}
 
-  #contatti {
-    color: white;
-    font-size: 1.1em;
-    font-weight: 600;
-  }
-} */
 body {
   background-color: rgb(243, 243, 211);
 }
