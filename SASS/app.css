@@ -100,28 +100,12 @@ span {
   background-color: rgb(243, 243, 211);
 }
 
-/* @mixin customPartner($property) {
-  width: 100%;
-  margin: 2em;
-  background-image: $property;
-}
-.partnership {
-  .colA {
-    @include customPartner(url(../../img/la\ cinciallegra\ logo.jfif));
-  }
-  .colB {
-    @include customPartner(url(../../img/le\ orme\ dei\ piccoli.jfif));
-  }
-  .colC {
-    @include customPartner(url(../../img/comune\ castelfranco\ logo.png));
-  }
-  .colD {
-    @include customPartner(url(../../img/logo\ biblioteca.png));
-  }
-}
- */
 .partners {
   background-color: rgb(0, 78, 0);
+}
+.partners h3,
+.partners h5 {
+  padding: 1em;
 }
 .partners img {
   max-width: 100%;
