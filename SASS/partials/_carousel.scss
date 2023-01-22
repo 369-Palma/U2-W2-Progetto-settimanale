@@ -31,4 +31,17 @@
 .carousel-item1 {
   display: flex;
   flex-direction: column;
+  img {
+    border-radius: 30px;
+    margin-bottom: 1.5em;
+  }
+  .testimonianza {
+    h5 {
+      color: $colore-principale;
+      font-family: $family;
+    }
+    p {
+      font-style: $styleI;
+    }
+  }
 }

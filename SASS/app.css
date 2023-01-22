@@ -123,50 +123,67 @@ span {
   font-size: 1.5em;
 }
 
-h5 {
-  font-family: "Nutito" "san-serif";
-  color: rgb(0, 78, 0);
+/* h5 {
+  font-family: $family;
+  color: $colore-principale;
 }
-
-#carouselExampleCaptions {
-  /*   margin-bottom: $size-fix; */
-}
-#carouselExampleCaptions .carousel-item img {
-  aspect-ratio: 1/1;
-  border-radius: 100% !important;
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-  width: 50% !important;
-  /* position: relative; */
-}
-
+#carouselExampleCaptions { */
+/*   margin-bottom: $size-fix; */
+/*  .carousel-item {
+    img {
+      aspect-ratio: 1/1;
+      border-radius: 100% !important;
+      object-fit: cover !important;
+      width: 50% !important;
+      /* position: relative; */
+/*    }
+  }
+} */
 /* .carousel-caption {
   position: absolute;
   bottom: -150px;
   left: 30px;
 } */
-.carousel-item {
+/* .carousel-item {
   display: flex;
   flex-direction: column;
   height: 500px;
+} */
+.carouselExampleRide {
+  padding-bottom: 4em;
 }
 
-footer {
+.carousel-item1 {
+  display: flex;
+  flex-direction: column;
+}
+.carousel-item1 img {
+  border-radius: 30px;
+  margin-bottom: 1.5em;
+}
+.carousel-item1 .testimonianza h5 {
+  color: rgb(0, 78, 0);
+  font-family: "Nutito" "san-serif";
+}
+.carousel-item1 .testimonianza p {
+  font-style: italic;
+}
+
+/* footer {
   height: 80px;
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 0;
-}
-footer .testo-footer {
-  padding-top: auto;
-  padding-bottom: auto;
-}
-footer #contatti {
-  color: white;
-  font-size: 1.1em;
-  font-weight: 600;
-}
+   position: sticky;
+  bottom: 0; 
+  .testo-footer {
+    padding-top: auto;
+    padding-bottom: auto;
+  }
 
+  #contatti {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+} */
 body {
   background-color: rgb(243, 243, 211);
 }
