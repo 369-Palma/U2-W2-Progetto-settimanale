@@ -10,8 +10,8 @@ body {
   }
 }  */
 
-#text-center {
-  color: $colore-sfondo;
+.text-center {
+  color: $colore-principale;
 }
 
 @mixin mainBox($val, $property) {

@@ -72,8 +72,8 @@ body {
     align-content: center;
   }
 }  */
-#text-center {
-  color: rgb(243, 243, 211);
+.text-center {
+  color: rgb(0, 78, 0);
 }
 
 .card-text p {
