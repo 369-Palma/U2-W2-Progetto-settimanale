@@ -1,0 +1,13 @@
+$luminosity: on;
+@if ($luminosity == on) {
+  body {
+    background-color: $colore-sfondo;
+  }
+} @else if ($luminosity == off) {
+  body {
+    background-color: darken($colore-sfondo, 100%);
+    .card-eventi {
+      background-color: $colore-sfondo;
+    }
+  }
+}

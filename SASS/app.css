@@ -157,4 +157,7 @@ h5 {
   position: absolute;
   bottom: -150px;
   left: 30px;
-} *//*# sourceMappingURL=app.css.map */
+} */
+body {
+  background-color: rgb(243, 243, 211);
+}/*# sourceMappingURL=app.css.map */
