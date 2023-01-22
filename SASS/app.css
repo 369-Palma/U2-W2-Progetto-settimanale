@@ -155,6 +155,10 @@ footer .testo-footer {
   padding-top: auto;
   padding-bottom: auto;
 }
+footer span {
+  font-size: 20px;
+  font-family: "Nutito" "san-serif";
+}
 
 body {
   background-color: rgb(243, 243, 211);
