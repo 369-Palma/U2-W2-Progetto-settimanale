@@ -155,13 +155,17 @@ footer .testo-footer {
   padding-top: auto;
   padding-bottom: auto;
 }
-footer span {
-  font-size: 20px;
-  font-family: "Nutito" "san-serif";
+footer #contatti {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 body {
   background-color: rgb(243, 243, 211);
+}
+body .text-center h3 {
+  color: rgb(0, 78, 0);
 }
 
 /* @function paddingTot($size) {
