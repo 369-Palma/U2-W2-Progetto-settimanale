@@ -1,21 +1,34 @@
-h5 {
+/* h5 {
   font-family: $family;
   color: $colore-principale;
 }
-#carouselExampleCaptions {
-  margin-bottom: $size-fix;
-  .carousel-item {
+#carouselExampleCaptions { */
+/*   margin-bottom: $size-fix; */
+/*  .carousel-item {
     img {
       aspect-ratio: 1/1;
       border-radius: 100% !important;
       object-fit: cover !important;
       width: 50% !important;
       /* position: relative; */
-    }
+/*    }
   }
-}
+} */
 /* .carousel-caption {
   position: absolute;
   bottom: -150px;
   left: 30px;
 } */
+
+/* .carousel-item {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+} */
+.carouselExampleRide {
+  padding-bottom: 4em;
+}
+.carousel-item1 {
+  display: flex;
+  flex-direction: column;
+}
