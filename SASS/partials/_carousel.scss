@@ -28,12 +28,10 @@
 .carouselExampleRide {
   padding-bottom: 4em;
 }
-.carousel-item1 {
-  display: flex;
-  flex-direction: column;
+.carousel-item {
   img {
     border-radius: 30px;
-    margin-bottom: 1.5em;
+    margin-bottom: 230px;
   }
   .testimonianza {
     h5 {
@@ -45,7 +43,10 @@
     }
   }
 }
-
+.carousel-caption {
+  background-color: $coloreOpaco;
+  padding: 10px;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: $colore-principale;

@@ -153,20 +153,21 @@ span {
   padding-bottom: 4em;
 }
 
-.carousel-item1 {
-  display: flex;
-  flex-direction: column;
-}
-.carousel-item1 img {
+.carousel-item img {
   border-radius: 30px;
-  margin-bottom: 1.5em;
+  margin-bottom: 230px;
 }
-.carousel-item1 .testimonianza h5 {
+.carousel-item .testimonianza h5 {
   color: rgb(0, 78, 0);
   font-family: "Nutito" "san-serif";
 }
-.carousel-item1 .testimonianza p {
+.carousel-item .testimonianza p {
   font-style: italic;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 78, 0, 0.68);
+  padding: 10px;
 }
 
 .carousel-control-prev-icon,
