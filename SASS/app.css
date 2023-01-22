@@ -153,12 +153,17 @@ span {
   padding-bottom: 4em;
 }
 
+.carousel-inner {
+  width: 50%;
+}
+
 .carousel-item img {
   border-radius: 30px;
-  margin-bottom: 250px;
+  margin-bottom: 220px;
 }
 .carousel-item .testimonianza h5 {
-  color: rgb(0, 78, 0);
+  color: rgb(243, 243, 211);
+  font-size: small;
   font-family: "Nutito" "san-serif";
 }
 .carousel-item .testimonianza p {
@@ -180,6 +185,7 @@ footer {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
+  z-index: 5;
 }
 footer .testo-footer {
   padding-top: auto;
@@ -196,9 +202,4 @@ body {
 }
 body .text-center h3 {
   color: rgb(0, 78, 0);
-}
-
-/* @function paddingTot($size) {
-  @return calc($size - $size-fix);
-}
- *//*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */

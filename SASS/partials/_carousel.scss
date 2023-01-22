@@ -28,14 +28,19 @@
 .carouselExampleRide {
   padding-bottom: 4em;
 }
+
+.carousel-inner {
+  width: 50%;
+}
 .carousel-item {
   img {
     border-radius: 30px;
-    margin-bottom: 250px;
+    margin-bottom: 220px;
   }
   .testimonianza {
     h5 {
-      color: $colore-principale;
+      color: $colore-sfondo;
+      font-size: small;
       font-family: $family;
     }
     p {
